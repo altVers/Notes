@@ -1,0 +1,19 @@
+.user-page__wrapper {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    gap: 30px;
+}
+
+.user-page__left-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user-page__user-menu {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    gap: 15px;
+}
